@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery | Shiv Shakti Engineering Works</title>
+    <meta name="description"
+        content="Watch our industrial bottling equipment and packaging machinery in action through our detailed video gallery.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header scrolled" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/shiv_shakti_logo.png" alt="Shiv Shakti Engineering Works Logo">
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="has-dropdown">
+                        <a href="products.html">Our Products <span class="arrow">&#9660;</span></a>
+                        <ul class="dropdown">
+                            <!-- Same mega menu as global -->
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-bottle-filling">Bottle Filling Machines <span
+                                        class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="water-filling-machine.html">Water Filling Machine</a></li>
+                                    <li><a href="juice-filling-machine.html">Juice Filling Machine</a></li>
+                                    <li><a href="soda-filling-machine.html">Soda Filling Machine</a></li>
+                                    <li><a href="beer-filling-machine.html">Beer Filling Machine</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-batch-coding">Batch Coding <span
+                                        class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="inkjet-batch-coding.html">Inkjet Batch Coding</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-labeling">Labeling Machines <span
+                                        class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="sticker-labelling-machine.html">Sticker Labelling Machine</a></li>
+                                    <li><a href="bopp-labelling-machine.html">BOPP Labelling Machine</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-lab">Lab Equipment <span class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="chemical-lab.html">Chemical Lab</a></li>
+                                    <li><a href="micro-biology-lab.html">Micro-Biology Lab</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-ro-plant">R.O Plant <span class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="r-o-plant.html">Industrial R.O Plant</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-shrink">Shrink Wrapping <span
+                                        class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="fully-automatic-shrink-wrapping-machine.html">Fully Auto Shrink
+                                            Wrapper</a></li>
+                                    <li><a href="semi-automatic-shrink-wrapping-machine.html">Semi Auto Shrink
+                                            Wrapper</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-blow">Blow Molding <span class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="fully-automatic-blow-moulding-machine.html">Fully Auto Blow
+                                            Moulding</a></li>
+                                    <li><a href="semi-automatic-blow-moulding-machine.html">Semi Auto Blow Moulding</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="video.html" class="active">Video</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                </ul>
+                <div class="header-actions">
+                    <a href="index.html#quote" class="btn btn-primary nav-cta">Request A Quote</a>
+                    <a href="index.html#brochure" class="btn btn-outline nav-cta secondary-cta">Download Broucher</a>
+                </div>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <span class="hamburger" style="background: var(--text-main);"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('assets/images/bg_factory.png');">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Video Gallery</li>
+            </ul>
+            <h1>Machinery in Action</h1>
+            <p>Experience the high-speed efficiency, precision, and durability of our bottling and packaging systems
+                through our detailed video demonstrations.</p>
+        </div>
+    </section>
+
+    <!-- Video Gallery Grid -->
+    <section class="video-gallery section-padding bg-light">
+        <div class="container">
+            <!-- Filter Bar -->
+            <div id="video-filters" style="display: flex; gap: 15px; margin-bottom: 40px; justify-content: center; flex-wrap: wrap;">
+                <button class="btn-blog-filter filter-btn active" data-filter="all">All Videos</button>
+                <button class="btn-blog-filter filter-btn" data-filter="Filling Lines">Filling Lines</button>
+                <button class="btn-blog-filter filter-btn" data-filter="Blow Moulding">Blow Moulding</button>
+                <button class="btn-blog-filter filter-btn" data-filter="Labelling">Labelling</button>
+                <button class="btn-blog-filter filter-btn" data-filter="Client Installations">Client Installations</button>
+            </div>
+
+            <div class="video-grid" id="videoGrid" style="margin-top: 0;">
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/aDG1Xd0IbGY')">
+                        <img src="https://i.ytimg.com/vi/aDG1Xd0IbGY/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYZSBbKFIwDw==&rs=AOn4CLAEGcXGf1AxcbVw3LdUCPI4trl66Q" alt="Harpic bottle filling machine" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Harpic bottle filling machine</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/iilA4-Z5TuU')">
+                        <img src="https://i.ytimg.com/vi/iilA4-Z5TuU/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Ac4GgALeA4oCDAgAEAEYZSBgKFYwDw==&rs=AOn4CLA9YQbX-S94PhFFQVIPf9-r-RRN7A" alt="Oil Filling Machine (servo system) pradip patel - 8490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Oil Filling Machine (servo system) pradip patel - 8490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/FQfJBwNIgXU')">
+                        <img src="https://i.ytimg.com/vi/FQfJBwNIgXU/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Ac4FgAL4CYoCDAgAEAEYRiBMKGUwDw==&rs=AOn4CLAQkGmNMVN9ccsk5U0Dvz26F7bd2g" alt="how to set shrink wrapping machine in water plant (Shiv shakti enterprise) 08490087773 - pradip" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">how to set shrink wrapping machine in water plant (Shiv shakti enterprise) 08490087773 - pradip</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/2rHv_ot63Yo')">
+                        <img src="https://i.ytimg.com/vi/2rHv_ot63Yo/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AbYIgAKAD4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLCQcnaiUE9pa72N3kw11dgXUABmBQ" alt="How to set Air blower in water filling machine (shiv shakti enterprise) 8490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">How to set Air blower in water filling machine (shiv shakti enterprise) 8490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/hrWR_id-Hug')">
+                        <img src="https://i.ytimg.com/vi/hrWR_id-Hug/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AYwCgALgA4oCDAgAEAEYXSBdKF0wDw==&rs=AOn4CLBPxJreS9UNVIn3Ob-JCDNbmgAXtA" alt="water filling machine" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">water filling machine</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/WH3D4sRV3hw')">
+                        <img src="https://i.ytimg.com/vi/WH3D4sRV3hw/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AYwCgALgA4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLD6PM-xeEF76kCBQiMRT_TtCdcajQ" alt="Water Plant Machinery (08490087773) Shiv Shakti Enterprise." class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Water Plant Machinery (08490087773) Shiv Shakti Enterprise.</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/6Pg6A-bWHjg')">
+                        <img src="https://i.ytimg.com/vi/6Pg6A-bWHjg/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Ac4GgALgA4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLAyCo327KF_mo_bcnZtFbaU8hS_Zw" alt="Fully Automatic Packaged Drinking Water Plant" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Fully Automatic Packaged Drinking Water Plant</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/3M67KJlQwrc')">
+                        <img src="https://i.ytimg.com/vi/3M67KJlQwrc/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AbYIgAKAD4oCDAgAEAEYYyBjKGMwDw==&rs=AOn4CLBnDHeX_CHeSVWFXutp8_8E7zBtcw" alt="Cap Elevator (shiv shakti enterprise, ahmedabad) 08490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Cap Elevator (shiv shakti enterprise, ahmedabad) 08490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/pQXXUV0VOSE')">
+                        <img src="https://i.ytimg.com/vi/pQXXUV0VOSE/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4EgALgAooCDAgAEAEYYiBiKGIwDw==&rs=AOn4CLDVCZXKbo0DSw_ykvJILzj4UDlcCw" alt="30 BPM (Water Filling Machine Installed in Africa) Shiv Shakti Enterprise (8490087773)" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">30 BPM (Water Filling Machine Installed in Africa) Shiv Shakti Enterprise (8490087773)</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/9zMqaa9D_GU')">
+                        <img src="https://i.ytimg.com/vi/9zMqaa9D_GU/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLCv-IvnA_I7M75HMDPrZUwTBTOjAQ" alt="Best mineral water plant machinery manufacturer (shiv shakti enterprise) 8490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Best mineral water plant machinery manufacturer (shiv shakti enterprise) 8490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/EzVnuGPVFbI')">
+                        <img src="https://i.ytimg.com/vi/EzVnuGPVFbI/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLCbv28MMvgK77KWTAgNNEALRNo-vQ" alt="Beer Bottle filling sealing and labeling machine" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Beer Bottle filling sealing and labeling machine</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/6mTa6I_Bid0')">
+                        <img src="https://i.ytimg.com/vi/6mTa6I_Bid0/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AYYCgALgA4oCDAgAEAEYZSBjKFgwDw==&rs=AOn4CLDOGA2dipsL3Bs-m0l-PiMu2uwv6A" alt="Soda Filling Machine" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Soda Filling Machine</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/d_Ge9DIWKmo')">
+                        <img src="https://i.ytimg.com/vi/d_Ge9DIWKmo/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYYyBjKGMwDw==&rs=AOn4CLBQHFGZHpV34R6bs-4gGLH8DdFtvQ" alt="15 Ltr. Oil  Tin Filling and Capping Machine" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">15 Ltr. Oil  Tin Filling and Capping Machine</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/wLdaR-DqCRk')">
+                        <img src="https://i.ytimg.com/vi/wLdaR-DqCRk/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYXiBeKF4wDw==&rs=AOn4CLD_Jjt12nuEnbdKnjBjraX66yEG1Q" alt="Automatic 15 Ltr. Oil Tin Filling Machine" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Automatic 15 Ltr. Oil Tin Filling Machine</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/X-Z9IQcK28I')">
+                        <img src="https://i.ytimg.com/vi/X-Z9IQcK28I/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AYYCgALgA4oCDAgAEAEYZSBYKEAwDw==&rs=AOn4CLDZtvh5EjiNdTN0wIEzsg43K_1WMQ" alt="engine Oil filling machine (shiv shakti enterprise) 8490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">engine Oil filling machine (shiv shakti enterprise) 8490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/KspiGSUsi9E')">
+                        <img src="https://i.ytimg.com/vi/KspiGSUsi9E/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4EgALgAooCDAgAEAEYZSBkKFUwDw==&rs=AOn4CLCUT4DSZCYp6GvwXbNGkHcSXd9WjA" alt="oil tin filling machine (shiv shakti enterprise) 8490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">oil tin filling machine (shiv shakti enterprise) 8490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/k586NB93dbg')">
+                        <img src="https://i.ytimg.com/vi/k586NB93dbg/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AYYCgALgA4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLBKCMfLHI_cNhJEshGBG4rjUcx3bQ" alt="Automatic Juice filling machine (shiv shakti enterprise) 8490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Automatic Juice filling machine (shiv shakti enterprise) 8490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/Mb7JoMY2gVY')">
+                        <img src="https://i.ytimg.com/vi/Mb7JoMY2gVY/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYZSBQKEMwDw==&rs=AOn4CLDtaEzjq5r2b4HaPfv5eZrCZu1m9A" alt="Semi Automatic Juice Filling Machine (8490087773) Shiv Shakti Enterprise" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Semi Automatic Juice Filling Machine (8490087773) Shiv Shakti Enterprise</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/uILbZLOvEps')">
+                        <img src="https://i.ytimg.com/vi/uILbZLOvEps/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYZSBgKFowDw==&rs=AOn4CLAZ3nSShzghIp8c2NRX22jDf7902g" alt="litchi juice Filling and Aluminum foil capping machine (Shiv Shakti Enterprise) 8490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">litchi juice Filling and Aluminum foil capping machine (Shiv Shakti Enterprise) 8490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/wbqcbmG2D3g')">
+                        <img src="https://i.ytimg.com/vi/wbqcbmG2D3g/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AYYCgALgA4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLBQxVrE8uiP15p_1Wu_k5Y2eKedmg" alt="Automatic blowing machine (shiv shakti enterprise( 8490087773)" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Automatic blowing machine (shiv shakti enterprise( 8490087773)</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/saqM2lyIDuY')">
+                        <img src="https://i.ytimg.com/vi/saqM2lyIDuY/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4EgALgA4oCDAgAEAEYXCBcKFwwDw==&rs=AOn4CLCMaIpvsd9QcLRWsrjk99z-3_r-iw" alt="24 (shiv shakti enterprise) 8490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">24 (shiv shakti enterprise) 8490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/RqtSMrdz9X4')">
+                        <img src="https://i.ytimg.com/vi/RqtSMrdz9X4/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLCzgsZ5GYu6UcTXjhfgjbZ3aEgqjQ" alt="Semi automatic 24 BPM RFC Machine (Shiv Shakti Enterprise) 8490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Semi automatic 24 BPM RFC Machine (Shiv Shakti Enterprise) 8490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/5mnQd6ycxxw')">
+                        <img src="https://i.ytimg.com/vi/5mnQd6ycxxw/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AYYCgALgA4oCDAgAEAEYZCBkKGQwDw==&rs=AOn4CLDuAk2QQo3HkhsEog7KyKpj96bU8g" alt="water packing machinery (60 BPM) (08490087773) shiv shakti enterprise" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">water packing machinery (60 BPM) (08490087773) shiv shakti enterprise</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/SRtQbasEaCI')">
+                        <img src="https://i.ytimg.com/vi/SRtQbasEaCI/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AYYCgALgA4oCDAgAEAEYZSBjKEowDw==&rs=AOn4CLAheu_ZgHOei_lJ3T-B_EYfaTgxsQ" alt="soda capping machine (8490087773) shiv shakti enterprise" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">soda capping machine (8490087773) shiv shakti enterprise</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/kFISTrx0I6k')">
+                        <img src="https://i.ytimg.com/vi/kFISTrx0I6k/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AYYCgALgA4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLCztQ9APAA0JJl8OcMHEgkHJQ2T1g" alt="water plant machine (08490087773) shiv shakti enterprise" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">water plant machine (08490087773) shiv shakti enterprise</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/SxOsxaodcv4')">
+                        <img src="https://i.ytimg.com/vi/SxOsxaodcv4/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AY4CgALgA4oCDAgAEAEYZSBgKFowDw==&rs=AOn4CLCq4RjvUgyMCYq8iIHuxc9blf3cEg" alt="water filling machine (08490087773) shiv shakti enterprise" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">water filling machine (08490087773) shiv shakti enterprise</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/N3OiMFkMa74')">
+                        <img src="https://i.ytimg.com/vi/N3OiMFkMa74/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYYCBgKGAwDw==&rs=AOn4CLCMs2Pv8qoOOGW69vxBpfpxVCbLlw" alt="Pesticide Filling Machine (Shiv Shakti Enterprise) 08490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Pesticide Filling Machine (Shiv Shakti Enterprise) 08490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/11GUJ4e8o-E')">
+                        <img src="https://i.ytimg.com/vi/11GUJ4e8o-E/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLAMAL2AcmEq5fsBY7olVmAxGxE88Q" alt="Glass Bottle Filling & Capping Machine" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Glass Bottle Filling & Capping Machine</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/X9ixn8VAOAI')">
+                        <img src="https://i.ytimg.com/vi/X9ixn8VAOAI/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4EgALgAooCDAgAEAEYUyBbKGUwDw==&rs=AOn4CLCIwqy6KSl75XxYh0otvGGJoD9d_g" alt="Paint Filling and Lid Pressing Machine (Shiv Shakti Enterprise) 08490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Paint Filling and Lid Pressing Machine (Shiv Shakti Enterprise) 08490087773</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper" onclick="openVideo('https://www.youtube.com/embed/JpHNGWtRfA0')">
+                        <img src="https://i.ytimg.com/vi/JpHNGWtRfA0/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4EgALgAooCDAgAEAEYZSBgKFQwDw==&rs=AOn4CLBNwPcMUoaiDpYTsgY6BrIxu4PvDw" alt="Servo Filling (for 5 Ltr.) Shiv Shakti Enterpris. (pradip patel) 08490087773" class="video-thumb">
+                        <div class="play-btn"></div>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height:1.4;">Servo Filling (for 5 Ltr.) Shiv Shakti Enterpris. (pradip patel) 08490087773</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer" id="contact" style="margin-top: 0;">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <img src="assets/images/shiv_shakti_logo.png" alt="Logo" class="footer-logo">
+                    <p>Innovating the machinery landscape with sustainable, efficient, and heavy-duty engineering
+                        solutions.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Machinery</a></li>
+                        <li><a href="index.html#global-reach">Global Network</a></li>
+                        <li><a href="index.html#certificate">Certifications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>ðŸ“ Ahmedabad, Gujarat, India</p>
+                    <p>ðŸ“§ info@shivshaktiengineering.com</p>
+                    <p>ðŸ“ž +91 98765 43210</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shiv Shakti Engineering Works. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-content">
+            <button class="video-modal-close" onclick="closeVideo()">&times;</button>
+            <div class="video-container-iframe">
+                <iframe id="youtubeFrame" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promotional Lead Popup -->
+    <div id="leadPopup" class="popup-overlay">
+        <!-- ... keeping lead popup for consistency ... -->
+        <div class="popup-content">
+            <button class="popup-close" aria-label="Close">&times;</button>
+            <div class="popup-body">
+                <div class="popup-form-side">
+                    <p class="popup-subtitle">GET MORE DETAILS</p>
+                    <h2 class="popup-title">Request A Call Back</h2>
+                    <form class="lead-form">
+                        <input type="text" placeholder="Name" required>
+                        <input type="tel" placeholder="Mobile Number" required>
+                        <input type="email" placeholder="Email" required>
+                        <button type="submit" class="btn btn-orange">SUBMIT INQUIRY</button>
+                    </form>
+                </div>
+                <div class="popup-image-side"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary/Debug files
+test_iframe.html
+yt_debug.html
+yt_data.json
+videos_extracted.json
+videos_utf8.json
+fetchyt.js
+fetchyt.ps1
+extract_vids.ps1
+convert.ps1
+inject_vids.ps1
+
+# Generated files (if you want to regenerate them on build)
+# Note: Since this is a simple static site, we keep raw HTMLs in the repo for now.

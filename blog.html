@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog & News | Shiv Shakti Engineering Works</title>
+    <meta name="description" content="Discover the latest industry trends, maintenance tips, and news on mineral water filling machines and beverage packaging equipment.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header scrolled" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/shiv_shakti_logo.png" alt="Shiv Shakti Engineering Works Logo">
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="has-dropdown">
+                        <a href="products.html">Our Products <span class="arrow">&#9660;</span></a>
+                        <ul class="dropdown">
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-bottle-filling">Bottle Filling Machines <span class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="water-filling-machine.html">Water Filling Machine</a></li>
+                                    <li><a href="juice-filling-machine.html">Juice Filling Machine</a></li>
+                                    <li><a href="soda-filling-machine.html">Soda Filling Machine</a></li>
+                                    <li><a href="beer-filling-machine.html">Beer Filling Machine</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-batch-coding">Batch Coding <span class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="inkjet-batch-coding.html">Inkjet Batch Coding</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-labeling">Labeling Machines <span class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="sticker-labelling-machine.html">Sticker Labelling Machine</a></li>
+                                    <li><a href="bopp-labelling-machine.html">BOPP Labelling Machine</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-lab">Lab Equipment <span class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="chemical-lab.html">Chemical Lab</a></li>
+                                    <li><a href="micro-biology-lab.html">Micro-Biology Lab</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-ro-plant">R.O Plant <span class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="r-o-plant.html">Industrial R.O Plant</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-shrink">Shrink Wrapping <span class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="fully-automatic-shrink-wrapping-machine.html">Fully Auto Shrink Wrapper</a></li>
+                                    <li><a href="semi-automatic-shrink-wrapping-machine.html">Semi Auto Shrink Wrapper</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-subdropdown">
+                                <a href="products.html#cat-blow">Blow Molding <span class="arrow">&#9654;</span></a>
+                                <ul class="subdropdown">
+                                    <li><a href="fully-automatic-blow-moulding-machine.html">Fully Auto Blow Moulding</a></li>
+                                    <li><a href="semi-automatic-blow-moulding-machine.html">Semi Auto Blow Moulding</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                </ul>
+                <div class="header-actions">
+                    <a href="index.html#quote" class="btn btn-primary nav-cta">Request A Quote</a>
+                    <a href="index.html#brochure" class="btn btn-outline nav-cta secondary-cta">Download Broucher</a>
+                </div>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <span class="hamburger" style="background: var(--text-main);"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('assets/images/bg_factory.png');">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Blog</li>
+            </ul>
+            <h1>Industry Insights & News</h1>
+            <p>Expert articles, maintenance tips, and the latest innovations from the forefront of the beverage packaging world.</p>
+        </div>
+    </section>
+
+    <!-- Main Blog List Section -->
+    <section class="blog-section section-padding bg-light">
+        <div class="container">
+            <!-- Filter Bar -->
+            <div id="blog-filters" style="display: flex; gap: 15px; margin-bottom: 40px; justify-content: center; flex-wrap: wrap;">
+                <button class="btn-blog-filter filter-btn active" data-filter="all">All Articles</button>
+                <button class="btn-blog-filter filter-btn" data-filter="Industry Trends">Industry Trends</button>
+                <button class="btn-blog-filter filter-btn" data-filter="Maintenance Tips">Maintenance & Support</button>
+                <button class="btn-blog-filter filter-btn" data-filter="Sustainability">Sustainability</button>
+                <button class="btn-blog-filter filter-btn" data-filter="Company News">Company News</button>
+                <button class="btn-blog-filter filter-btn" data-filter="Quality Control">Quality Control</button>
+            </div>
+
+            <div class="blog-grid" style="margin-top: 0;">
+                
+                <!-- Blog 1 -->
+                <div class="blog-card" style="margin-bottom: 20px;">
+                    <div class="blog-img-wrapper">
+                        <img src="assets/images/hero_machine_1.png" alt="Blog Image 1">
+                        <div class="blog-date">10 Apr, 2026</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Industry Trends</span>
+                        <h3>How Automation is Revolutionizing the Beverage Industry</h3>
+                        <p>Discover how fully automated filling lines are reducing downtime and tripling production rates for modern businesses.</p>
+                        <a href="blog-single.html" class="blog-read-more">Read Full Article</a>
+                    </div>
+                </div>
+
+                <!-- Blog 2 -->
+                <div class="blog-card" style="margin-bottom: 20px;">
+                    <div class="blog-img-wrapper">
+                        <img src="assets/images/hero_machine_3.png" alt="Blog Image 2">
+                        <div class="blog-date">05 Apr, 2026</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Maintenance Tips</span>
+                        <h3>5 Ways to Extend the Life of Your Blow Moulding Machine</h3>
+                        <p>Routine checks and clever maintenance hacks that will keep your PET blow moulders running flawlessly for decades.</p>
+                        <a href="blog-single.html" class="blog-read-more">Read Full Article</a>
+                    </div>
+                </div>
+
+                <!-- Blog 3 -->
+                <div class="blog-card" style="margin-bottom: 20px;">
+                    <div class="blog-img-wrapper">
+                        <img src="assets/images/hero_machine_2.png" alt="Blog Image 3">
+                        <div class="blog-date">28 Mar, 2026</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Sustainability</span>
+                        <h3>Reducing Plastic Waste with Eco-Friendly Shrink Wraps</h3>
+                        <p>Explore the new age of LDPE shrink films and how our web sealers are adapting to greener, more eco-friendly materials.</p>
+                        <a href="blog-single.html" class="blog-read-more">Read Full Article</a>
+                    </div>
+                </div>
+
+                 <!-- Blog 4 -->
+                 <div class="blog-card" style="margin-bottom: 20px;">
+                    <div class="blog-img-wrapper">
+                        <img src="assets/images/team_thumb.png" alt="Blog Image 4">
+                        <div class="blog-date">15 Mar, 2026</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Company News</span>
+                        <h3>Shiv Shakti Expands Operations to African Markets</h3>
+                        <p>Celebrating our latest milestone as we successfully install our 100th fully automated water bottling plant in Kenya.</p>
+                        <a href="blog-single.html" class="blog-read-more">Read Full Article</a>
+                    </div>
+                </div>
+
+                <!-- Blog 5 -->
+                <div class="blog-card" style="margin-bottom: 20px;">
+                    <div class="blog-img-wrapper">
+                        <img src="assets/images/prod_chemical_lab.png" alt="Blog Image 5">
+                        <div class="blog-date">02 Mar, 2026</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Quality Control</span>
+                        <h3>Why In-House Chemical Labs are Essential for Water Plants</h3>
+                        <p>Stop waiting on third-party labs. Ensure BIS and WHO standards are met constantly with our comprehensive lab grids.</p>
+                        <a href="blog-single.html" class="blog-read-more">Read Full Article</a>
+                    </div>
+                </div>
+
+                <!-- Blog 6 -->
+                <div class="blog-card" style="margin-bottom: 20px;">
+                    <div class="blog-img-wrapper">
+                        <img src="assets/images/hero_machine_4.png" alt="Blog Image 6">
+                        <div class="blog-date">18 Feb, 2026</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Maintenance Tips</span>
+                        <h3>Understanding Isobaric CSD Filling Procedures</h3>
+                        <p>Prevent foaming and dissolved carbonation loss by maintaining strict counter-pressure protocols in your soda plant.</p>
+                        <a href="blog-single.html" class="blog-read-more">Read Full Article</a>
+                    </div>
+                </div>
+
+                 <!-- Blog 7 -->
+                 <div class="blog-card" style="margin-bottom: 20px;">
+                    <div class="blog-img-wrapper">
+                        <img src="assets/images/team_thumb.png" alt="Blog Image 7">
+                        <div class="blog-date">10 Feb, 2026</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Company News</span>
+                        <h3>Upcoming Showcase at the International Water Expo</h3>
+                        <p>Join us in Dubai this April as we will be displaying our newest range of smart filling machines with AI monitoring.</p>
+                        <a href="blog-single.html" class="blog-read-more">Read Full Article</a>
+                    </div>
+                </div>
+
+                <!-- Blog 8 -->
+                <div class="blog-card" style="margin-bottom: 20px;">
+                    <div class="blog-img-wrapper">
+                        <img src="assets/images/hero_machine_1.png" alt="Blog Image 8">
+                        <div class="blog-date">25 Jan, 2026</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Sustainability</span>
+                        <h3>Energy-Efficient Solutions for Modern Water Plants</h3>
+                        <p>Explore how our latest variable frequency drives (VFD) cut energy consumption by up to 30% without sacrificing speed.</p>
+                        <a href="blog-single.html" class="blog-read-more">Read Full Article</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Pagination Placeholder -->
+            <div style="display: flex; justify-content: center; margin-top: 40px; gap: 10px;">
+                <span class="btn btn-primary" style="padding: 10px 15px;">1</span>
+                <a href="#" class="btn btn-outline" style="padding: 10px 15px;">2</a>
+                <a href="#" class="btn btn-outline" style="padding: 10px 15px;">Next</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <img src="assets/images/shiv_shakti_logo.png" alt="Logo" class="footer-logo">
+                    <p>Innovating the machinery landscape with sustainable, efficient, and heavy-duty engineering solutions.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Machinery</a></li>
+                        <li><a href="index.html#global-reach">Global Network</a></li>
+                        <li><a href="index.html#certificate">Certifications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>📍 Ahmedabad, Gujarat, India</p>
+                    <p>📧 info@shivshaktiengineering.com</p>
+                    <p>📞 +91 98765 43210</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shiv Shakti Engineering Works. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Promotional Lead Popup -->
+    <div id="leadPopup" class="popup-overlay">
+        <div class="popup-content">
+            <button class="popup-close" aria-label="Close">&times;</button>
+            <div class="popup-body">
+                <div class="popup-form-side">
+                    <p class="popup-subtitle">GET MORE DETAILS<br>ABOUT OUR PRODUCT?</p>
+                    <h2 class="popup-title">Fill Up This Form &<br>Download Brochure :</h2>
+                    <form class="lead-form">
+                        <input type="text" placeholder="Name" required>
+                        <input type="tel" placeholder="Mobile Number" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="kindly Inform Your Requirement" required>
+                        <button type="submit" class="btn btn-orange">DOWNLOAD BROCHURE</button>
+                    </form>
+                </div>
+                <div class="popup-image-side"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
