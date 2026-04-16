@@ -10,6 +10,7 @@ foreach ($p in $json) {
     $html = $html -replace '\{\{tagline\}\}', $p.tagline
     $html = $html -replace '\{\{overview\}\}', $p.overview
     $html = $html -replace '\{\{image\}\}', $p.image
+    $html = $html -replace '\{\{filename\}\}', $p.filename
 
     $topFeaturesHtml = ""
     foreach ($f in $p.topFeatures) {

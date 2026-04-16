@@ -245,6 +245,76 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // 7. Video Carousel Logic
+    const videoTrack = document.getElementById('videoTrack');
+
+    if (videoTrack) {
+        let videoIndex = 0;
+        let slideInterval;
+
+        const updateVideoCarousel = () => {
+            const cards = videoTrack.querySelectorAll('.video-card');
+            if(cards.length === 0) return;
+            const cardWidth = cards[0].offsetWidth;
+            const gap = 30; // Matches CSS gap
+            const moveAmt = cardWidth + gap;
+            
+            // Calculate max index
+            const visibleCards = window.innerWidth > 991 ? 3 : (window.innerWidth > 576 ? 2 : 1);
+            const maxIndex = Math.max(0, cards.length - visibleCards);
+
+            if (videoIndex > maxIndex) videoIndex = 0;
+
+            videoTrack.style.transform = `translateX(-${videoIndex * moveAmt}px)`;
+        };
+
+        const nextSlide = () => {
+            videoIndex++;
+            updateVideoCarousel();
+        };
+
+        // Start Auto Slider
+        slideInterval = setInterval(nextSlide, 3500); // 3.5s per slide
+
+        // Pause on hover
+        videoTrack.addEventListener('mouseenter', () => clearInterval(slideInterval));
+        videoTrack.addEventListener('mouseleave', () => {
+            slideInterval = setInterval(nextSlide, 3500);
+        });
+
+        window.addEventListener('resize', updateVideoCarousel);
+        
+        // Initial setup
+        updateVideoCarousel();
+    }
+
+    // 8. FAQ Accordion Logic
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    if (faqItems.length > 0) {
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            if (!question) return;
+
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+
+                // Close all FAQ items first
+                faqItems.forEach(otherItem => {
+                    otherItem.classList.remove('active');
+                    const btn = otherItem.querySelector('.faq-question');
+                    if (btn) btn.setAttribute('aria-expanded', 'false');
+                });
+
+                // Toggle the clicked item
+                if (!isActive) {
+                    item.classList.add('active');
+                    question.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
+    }
+
 });
 
 // Global Video Modal Logic
