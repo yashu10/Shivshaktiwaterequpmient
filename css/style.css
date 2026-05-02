@@ -2267,10 +2267,13 @@ ul {
 }
 
 .org-row-2 {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
     position: relative;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 /* Horizontal connecting line */
@@ -2278,8 +2281,8 @@ ul {
     content: '';
     position: absolute;
     top: 0;
-    left: calc(50% - 150px);
-    width: 300px;
+    left: 25%;
+    width: 50%;
     height: 2px;
     background: #E22B32;
     box-shadow: 0 0 8px rgba(226, 43, 50, 0.5);
@@ -2874,3 +2877,5 @@ ul {
         flex-direction: column;
     }
 }
+
+
