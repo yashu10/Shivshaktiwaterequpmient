@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "filename": "water-filling-machine.html",
         "title": "Water Filling Machine",
@@ -39,10 +39,10 @@
         "overview": "Our Automatic Juice Filling Machines are specially designed for hot-fill applications, perfect for fruit juices, nectar, iced tea, and flavoured milk. Maintaining a consistent temperature is critical in juice packaging to ensure product shelf life and prevent contamination. Our machinery features a state-of-the-art recirculation system to maintain juice temperature right up to the filling nozzle. Designed with an advanced micro-negative pressure filling method, it delivers rapid, extremely precise fills without bubbling or overflow.",
         "image": "prod_juice_filling.png",
         "topFeatures": [
-            "Micro-negative pressure hot filling (Up to 95°C)",
+            "Micro-negative pressure hot filling (Up to 95Â°C)",
             "Automatic product recirculation system",
             "Integrated CIP (Clean-In-Place) compatibility",
-            "Precision fill level accuracy (± 2mm)"
+            "Precision fill level accuracy (Â± 2mm)"
         ],
         "benefits": [
             { "title": "Temperature Stabilization", "desc": "Maintains optimal liquid temperature during the entire fill process to ensure zero spoilage." },
@@ -52,7 +52,7 @@
         ],
         "specs": [
             { "k": "Production Capacity", "v": "24 to 200 Bottles Per Minute (BPM)" },
-            { "k": "Filling Temperature", "v": "60°C to 95°C (Adjustable)" },
+            { "k": "Filling Temperature", "v": "60Â°C to 95Â°C (Adjustable)" },
             { "k": "Bottle Type Compatibility", "v": "Hot-fill PET, Glass Bottles" },
             { "k": "Material of Construction", "v": "SS 316L (Highest Grade) for liquid contact" },
             { "k": "Cleaning Mechanism", "v": "Integrated Dummy Cups for CIP" },
@@ -156,7 +156,7 @@
         "seoTitle": "Automatic Sticker Labelling Machine | Round & Flat Bottles",
         "seoDesc": "High-precision wrap-around and double-sided sticker labelling machines for PET/Glass bottles. Servo-driven accuracy for flawless aesthetics.",
         "tagline": "Flawless Branding Application at Every Speed",
-        "overview": "First impressions matter on retail shelves. Our Fully Automatic Sticker Labelling Machines guarantee perfect, bubble-free label placement every single time. Utilizing high-end servo or stepper motor technology, the machine continuously dispenses self-adhesive pressure-sensitive sticker labels onto passing bottles with an accuracy of ±1mm. Designed to handle round, flat, square, and oval containers, the highly adjustable applicator heads and heavy-duty conveyor synchronization make it a versatile asset for food, pharma, and beverage industries.",
+        "overview": "First impressions matter on retail shelves. Our Fully Automatic Sticker Labelling Machines guarantee perfect, bubble-free label placement every single time. Utilizing high-end servo or stepper motor technology, the machine continuously dispenses self-adhesive pressure-sensitive sticker labels onto passing bottles with an accuracy of Â±1mm. Designed to handle round, flat, square, and oval containers, the highly adjustable applicator heads and heavy-duty conveyor synchronization make it a versatile asset for food, pharma, and beverage industries.",
         "image": "prod_sticker_labeling.png",
         "topFeatures": [
             "Partial, full wrap-around, or multi-side application",
@@ -165,7 +165,7 @@
             "In-built rolling mechanism for zero-bubble finish"
         ],
         "benefits": [
-            { "title": "Pinpoint Placement Accuracy", "desc": "Tolerances tightened to ±1mm using high-speed fiber-optic gap sensors." },
+            { "title": "Pinpoint Placement Accuracy", "desc": "Tolerances tightened to Â±1mm using high-speed fiber-optic gap sensors." },
             { "title": "Versatile Container Support", "desc": "Simple screw adjustments allow rapid changeovers between diametrically different bottles." },
             { "title": "Online Coding Integration", "desc": "Can be perfectly synchronized with Inkjet or Thermal printers to print batch data directly onto the label before dispensing." },
             { "title": "Low Maintenance Mechanics", "desc": "Virtually wear-free stepper driver motors require zero lubrication or complex belt replacements." }
@@ -175,7 +175,7 @@
             { "k": "Label Roll Diameter", "v": "Max Inner 76mm / Max Outer 300mm" },
             { "k": "Label Type", "v": "Self-adhesive paper, transparent film, metalized" },
             { "k": "Dispensing Motor", "v": "High Torque Servo / Stepper Motor" },
-            { "k": "Accuracy", "v": "± 1.0 mm" },
+            { "k": "Accuracy", "v": "Â± 1.0 mm" },
             { "k": "Power Requirement", "v": "Single Phase, 220V, 50Hz, 1.5 kW" }
         ]
     },
@@ -204,7 +204,7 @@
             { "k": "Production Speed", "v": "100 to 300 Bottles Per Minute" },
             { "k": "Label Material", "v": "BOPP Film, OPP, Paper Wrap" },
             { "k": "Container Types", "v": "PET Round & Square, Glass Round" },
-            { "k": "Glue Type", "v": "Standard Hot Melt Adhesive (Operating 130°C-160°C)" },
+            { "k": "Glue Type", "v": "Standard Hot Melt Adhesive (Operating 130Â°C-160Â°C)" },
             { "k": "Cutting Mechanism", "v": "Rotary Knife on Central Drum" },
             { "k": "Machine Weight", "v": "Approx ~1500 KG to 3000 KG" }
         ]
@@ -264,7 +264,7 @@
             { "k": "Regulatory Compliance", "v": "IS-14543 standards for packaged water" },
             { "k": "Laminar Airflow", "v": "HEPA Filter 99.99% efficiency down to 0.3 micron" },
             { "k": "Autoclave Capacity", "v": "Standard Vertical SS 304 (20L to 50L)" },
-            { "k": "BOD Incubator", "v": "Temperature Range: 5°C to 60°C Digital Control" },
+            { "k": "BOD Incubator", "v": "Temperature Range: 5Â°C to 60Â°C Digital Control" },
             { "k": "Microscope Included", "v": "Binocular / Trinocular analytical microscope" },
             { "k": "Additional Items", "v": "Colony Counter, Millipore Filters, Petri Dishes" }
         ]
@@ -324,7 +324,7 @@
             { "k": "Packing Speed", "v": "8 to 15 Packs (Bundles) Per Minute" },
             { "k": "Film Material Used", "v": "LDPE Shrink Film (50 to 100 Microns)" },
             { "k": "Bottle Collation Formats", "v": "12, 24, 30 bottles per pack" },
-            { "k": "Heating Tunnel Temp", "v": "Adjustable 150°C to 220°C" },
+            { "k": "Heating Tunnel Temp", "v": "Adjustable 150Â°C to 220Â°C" },
             { "k": "Sealing Blade Mechanism", "v": "Pneumatic powered hot knife (Teflon Coated)" },
             { "k": "Power Consumption", "v": "3 Phase, 440V, Approx 18 kW to 24 kW" }
         ]
@@ -419,5 +419,124 @@
             { "k": "Required Air", "v": "High Pressure (25-30 Bar) Compressor Required" }
         ]
     }
+    ,{
+        "filename": "milk-dairy-filling-machine.html",
+        "title": "Milk & Dairy Filling Machine",
+        "category": "Liquid Filling Machines",
+        "seoTitle": "Milk & Dairy Filling Machine | Automatic Dairy Bottling Plant",
+        "seoDesc": "High-hygiene milk and dairy filling machines. Ultra-clean automatic bottling solutions for flavored milk, yogurt, and dairy products.",
+        "tagline": "Ultra-Clean Bottling Solutions for the Dairy Industry",
+        "overview": "Dairy products require strict hygiene and precision to ensure safety and prolonged shelf life. Our Automatic Milk & Dairy Filling Machines are designed with sanitary SS 316L contact parts and advanced CIP (Clean-In-Place) systems. They effectively handle liquid milk, flavored milk, and low-viscosity dairy beverages, ensuring a sterile filling environment with zero dripping and high accuracy.",
+        "image": "prod_milk_filling.png",
+        "topFeatures": [
+            "Ultra-clean sanitary filling environment",
+            "Automatic CIP (Clean-In-Place) integration",
+            "No drip, high-precision filling valves",
+            "Suitable for PET, HDPE, and Glass bottles"
+        ],
+        "benefits": [
+            { "title": "Sterile Operations", "desc": "Designed with zero dead-corners to prevent bacterial growth and ensure product integrity." },
+            { "title": "High Speed Filling", "desc": "Optimized fluid dynamics allow for rapid filling without foaming or splashing." },
+            { "title": "Easy Maintenance", "desc": "Quick-release valves and tool-less dismantling for rapid daily cleaning procedures." },
+            { "title": "Robust Sealing", "desc": "Advanced capping mechanisms ensure airtight seals to maximize dairy shelf life." }
+        ],
+        "specs": [
+            { "k": "Production Capacity", "v": "24 to 150 Bottles Per Minute (BPM)" },
+            { "k": "Filling Temperature", "v": "Ambient or Cold Fill" },
+            { "k": "Bottle Size Supported", "v": "200 ml to 1000 ml" },
+            { "k": "Material of Construction", "v": "SS 316L for all liquid contact parts" },
+            { "k": "Cleaning Mechanism", "v": "Fully Automated CIP System" },
+            { "k": "Control System", "v": "PLC with Touch Screen Interface" }
+        ]
+    },
+    {
+        "filename": "edible-oil-filling-machine.html",
+        "title": "Edible Oil Filling Machine",
+        "category": "Liquid Filling Machines",
+        "seoTitle": "Edible Oil Filling Machine | Automatic Oil Bottling Equipment",
+        "seoDesc": "High-accuracy edible oil filling machines for cooking oil, olive oil, and mustard oil. Anti-drip technology and heavy-duty performance.",
+        "tagline": "Precision Volumetric Filling for Edible Oils",
+        "overview": "Viscous liquids like edible oils demand specialized filling technology to prevent dripping and ensure exact volumetric accuracy. Our Edible Oil Filling Machines utilize advanced piston or flow-meter technology to dispense precise quantities of cooking oil, olive oil, mustard oil, and more. Equipped with anti-drip nozzles and spill-recovery trays, these machines guarantee a clean packaging process and zero product wastage.",
+        "image": "prod_oil_filling.png",
+        "topFeatures": [
+            "Advanced anti-drip nozzle technology",
+            "High-accuracy volumetric piston or flow-meter filling",
+            "Spill recovery and clean operation design",
+            "Handles various oil viscosities smoothly"
+        ],
+        "benefits": [
+            { "title": "Zero Wastage", "desc": "Positive shut-off nozzles completely eliminate post-fill dripping, keeping bottles clean." },
+            { "title": "Consistent Accuracy", "desc": "Servo-driven pistons ensure exact volume delivery regardless of temperature or viscosity variations." },
+            { "title": "Versatile Container Handling", "desc": "Easily adjustable to handle different bottle shapes, from small glass bottles to large PET jars." },
+            { "title": "Heavy Duty Build", "desc": "Constructed to withstand continuous operation in demanding edible oil packaging environments." }
+        ],
+        "specs": [
+            { "k": "Production Capacity", "v": "20 to 120 Bottles Per Minute (BPM)" },
+            { "k": "Filling Accuracy", "v": "+/- 0.5% of fill volume" },
+            { "k": "Bottle Size Supported", "v": "500 ml to 5000 ml (5 Liters)" },
+            { "k": "Filling Mechanism", "v": "Servo Volumetric Piston / Mass Flow Meter" },
+            { "k": "Nozzle Type", "v": "Pneumatic Positive Shut-Off" },
+            { "k": "Control System", "v": "Advanced PLC with Recipe Memory" }
+        ]
+    },
+    {
+        "filename": "hand-wash-filling-machine.html",
+        "title": "Hand Wash Filling Machine",
+        "category": "Liquid Filling Machines",
+        "seoTitle": "Hand Wash & Liquid Soap Filling Machine",
+        "seoDesc": "Thick liquid filling machines ideal for hand wash, liquid soap, and sanitizers. Corrosion-resistant and highly accurate.",
+        "tagline": "Reliable Filling for Soaps and Viscous Liquids",
+        "overview": "The Hand Wash and Liquid Soap Filling Machine is specifically engineered to handle highly viscous and foaming products. Designed with robust, corrosion-resistant materials, this machine efficiently fills hand washes, shampoos, dishwashing liquids, and sanitizers. The bottom-up filling technology significantly reduces foaming, while the heavy-duty pump systems ensure consistent product flow, making it an essential asset for personal care product manufacturers.",
+        "image": "prod_handwash_filling.png",
+        "topFeatures": [
+            "Diving nozzle technology to prevent foaming",
+            "Corrosion-resistant SS 316 / PTFE components",
+            "Handles thick and highly viscous liquids",
+            "Quick-changeover design for different bottle sizes"
+        ],
+        "benefits": [
+            { "title": "Foam Control", "desc": "Nozzles dive to the bottom of the bottle and rise with the liquid level to eliminate foam generation." },
+            { "title": "Chemical Resistance", "desc": "Built with high-grade alloys to withstand harsh chemicals and surfactants." },
+            { "title": "High Viscosity Handling", "desc": "Powerful lobe or piston pumps easily push thick gels and soaps through the system." },
+            { "title": "Easy Cleaning", "desc": "Tool-less disassembly of fluid paths for quick cleaning between different product batches." }
+        ],
+        "specs": [
+            { "k": "Production Capacity", "v": "30 to 100 Bottles Per Minute (BPM)" },
+            { "k": "Filling Accuracy", "v": "+/- 1%" },
+            { "k": "Bottle Size Supported", "v": "100 ml to 1000 ml" },
+            { "k": "Filling Mechanism", "v": "Volumetric Piston / Gear Pump" },
+            { "k": "Nozzle Type", "v": "Diving Anti-Foam Nozzles" },
+            { "k": "Material of Construction", "v": "SS 316L Contact Parts" }
+        ]
+    },
+    {
+        "filename": "chemical-pesticide-filling-machine.html",
+        "title": "Chemical & Pesticide Filling Machine",
+        "category": "Liquid Filling Machines",
+        "seoTitle": "Chemical & Pesticide Filling Machine | Safe Bottling Solutions",
+        "seoDesc": "Corrosion-resistant filling machines for harsh chemicals, pesticides, and fertilizers. Safe, enclosed, and highly accurate.",
+        "tagline": "Safe and Precise Bottling for Harsh Chemicals",
+        "overview": "Handling hazardous chemicals, pesticides, and agrochemicals requires specialized equipment that prioritizes safety, durability, and extreme accuracy. Our Chemical & Pesticide Filling Machines are built with ultra-corrosion-resistant materials like Titanium, PTFE, and High-Density Plastics where necessary. Featuring fully enclosed filling chambers and specialized exhaust systems, they protect operators from toxic fumes while delivering rapid, highly accurate fills.",
+        "image": "prod_chemical_filling.png",
+        "topFeatures": [
+            "Ultra-corrosion-resistant construction (PTFE/Titanium)",
+            "Fully enclosed safety chamber with fume extraction",
+            "Zero-leak positive displacement filling",
+            "Explosion-proof (ATEX compliant) electricals available"
+        ],
+        "benefits": [
+            { "title": "Operator Safety", "desc": "Sealed environment and fume extraction systems prevent exposure to hazardous vapors." },
+            { "title": "Maximum Durability", "desc": "Custom material selection ensures the machine outlasts exposure to highly corrosive acids or bases." },
+            { "title": "Precision Dosing", "desc": "Eliminates overfilling of expensive or dangerous chemicals, ensuring regulatory compliance." },
+            { "title": "Spill Prevention", "desc": "Advanced bottle handling and leak-proof nozzles guarantee a clean, accident-free operation." }
+        ],
+        "specs": [
+            { "k": "Production Capacity", "v": "20 to 80 Bottles Per Minute (BPM)" },
+            { "k": "Filling Accuracy", "v": "+/- 0.5%" },
+            { "k": "Bottle Size Supported", "v": "100 ml to 5000 ml" },
+            { "k": "Material of Construction", "v": "Specialized Anti-Corrosive Plastics / Alloys" },
+            { "k": "Safety Features", "v": "Fume Extraction, Enclosed Chamber" },
+            { "k": "Control System", "v": "Isolated PLC Control Panel" }
+        ]
+    }
 ]
-
