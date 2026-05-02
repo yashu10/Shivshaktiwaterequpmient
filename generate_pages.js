@@ -11,7 +11,7 @@ const products = [
         seoTitle: "Mineral Water Filling Machine | Automatic Water Bottling Plant",
         seoDesc: "Leading manufacturer of automatic mineral water filling machines in India. High-speed washing, filling & capping for PET bottles. Request a quote today.",
         tagline: "High-Speed Monoblock Water Bottling Solutions",
-        overview: "Shiv Shakti Engineering Works manufactures heavy-duty, fully automatic Mineral Water Filling Machines designed for modern bottling plants. Our reliable 3-in-1 monoblock system integrates washing, filling, and capping into a single, compact framed unit. Built completely from SS 304/316 contact parts, it ensures 100% hygienic water packaging suitable for pack sizes ranging from 200ml to 2000ml. Engineered for minimal downtime and maximal precision, our filling lines help you achieve incredible production throughput while strictly adhering to international purity standards.",
+        overview: "SHIV SHAKTI WATER EQUIPMENT PVT. LTD. manufactures heavy-duty, fully automatic Mineral Water Filling Machines designed for modern bottling plants. Our reliable 3-in-1 monoblock system integrates washing, filling, and capping into a single, compact framed unit. Built completely from SS 304/316 contact parts, it ensures 100% hygienic water packaging suitable for pack sizes ranging from 200ml to 2000ml. Engineered for minimal downtime and maximal precision, our filling lines help you achieve incredible production throughput while strictly adhering to international purity standards.",
         image: "prod_water_filling.png",
         topFeatures: [
             "Output capacity from 20 BPM up to 300 BPM",
@@ -450,7 +450,7 @@ function generateHTML(p) {
     <header class="site-header scrolled" id="header">
         <div class="container header-container">
             <a href="index.html" class="logo">
-                <img src="assets/images/shiv_shakti_logo.png" alt="Shiv Shakti Engineering Works Logo">
+                <img src="assets/images/shiv_shakti_logo.png" alt="SHIV SHAKTI WATER EQUIPMENT PVT. LTD. Logo">
             </a>
             <nav class="main-nav" id="mainNav">
                 <ul class="nav-links">
@@ -651,7 +651,7 @@ function generateHTML(p) {
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Shiv Shakti Engineering Works. All rights reserved.</p>
+                <p>&copy; 2026 SHIV SHAKTI WATER EQUIPMENT PVT. LTD.. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -709,3 +709,4 @@ for (const p of products) {
 }
 
 console.log("SUCCESS: All 14 product pages generated!");
+
