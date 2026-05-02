@@ -2770,3 +2770,107 @@ ul {
         padding: 25px 20px;
     }
 }
+/* ================== New Global Reach Design ================== */
+.new-glass-overlay {
+    background: linear-gradient(135deg, rgba(15, 39, 68, 0.95) 0%, rgba(15, 39, 68, 0.8) 100%);
+}
+.global-reach-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.reach-text-content {
+    flex: 1;
+    text-align: left;
+}
+.reach-map-content {
+    flex: 1;
+    position: relative;
+}
+.text-accent {
+    color: var(--accent);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 10px;
+}
+.new-stats-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.new-stat-card {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.new-stat-card:hover {
+    transform: translateX(10px);
+    background: rgba(255, 255, 255, 0.2);
+}
+.new-stat-card .icon-box {
+    width: 60px;
+    height: 60px;
+    background: var(--accent);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.new-stat-card .stat-info h3 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+.new-stat-card .stat-info p {
+    color: rgba(255,255,255,0.8);
+    margin: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.map-floating-wrapper {
+    position: relative;
+    width: 100%;
+}
+.world-map-animated {
+    width: 100%;
+    display: block;
+    filter: drop-shadow(0 0 20px rgba(255,255,255,0.1));
+    animation: floatMap 6s ease-in-out infinite;
+}
+@keyframes floatMap {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+.pulse-dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: var(--accent);
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(239, 131, 84, 0.7);
+    animation: pulseDot 2s infinite;
+}
+@keyframes pulseDot {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 131, 84, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 15px rgba(239, 131, 84, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 131, 84, 0); }
+}
+
+@media (max-width: 991px) {
+    .global-reach-wrapper {
+        flex-direction: column;
+    }
+}
