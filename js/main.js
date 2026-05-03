@@ -315,6 +315,64 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // 9. Form Handling for WhatsApp & Email
+    const handleFormSubmit = (e, isContactForm = false) => {
+        e.preventDefault();
+        const form = e.target;
+        
+        // Extract values
+        const name = form.querySelector('input[placeholder*="Name"]')?.value || 'N/A';
+        const phone = form.querySelector('input[type="tel"]')?.value || form.querySelector('input[placeholder*="Phone"]')?.value || form.querySelector('input[placeholder*="Mobile"]')?.value || 'N/A';
+        const email = form.querySelector('input[type="email"]')?.value || 'N/A';
+        
+        let requirement = '';
+        if (isContactForm) {
+            const subject = form.querySelector('input[placeholder*="Subject"]')?.value || 'N/A';
+            const message = form.querySelector('textarea')?.value || 'N/A';
+            requirement = `Subject: ${subject}\nMessage: ${message}`;
+        } else {
+            requirement = form.querySelector('input[placeholder*="Requirement"]')?.value || 'N/A';
+        }
+
+        // Build the message
+        const messageBody = `*New Request a Quote*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Email:* ${email}\n*Requirement:* ${requirement}`;
+        
+        // Format for WhatsApp
+        const whatsappUrl = `https://wa.me/919712666160?text=${encodeURIComponent(messageBody)}`;
+        
+        // Format for Email
+        const emailBody = `New Request a Quote\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\nRequirement: ${requirement}`;
+        const emailUrl = `mailto:shivshakti2932@yahoo.com?subject=New Quote Request from ${encodeURIComponent(name)}&body=${encodeURIComponent(emailBody)}`;
+
+        // Open WhatsApp in new tab
+        window.open(whatsappUrl, '_blank');
+        
+        // Trigger Email client
+        setTimeout(() => {
+            window.location.href = emailUrl;
+            
+            // Show alert or reset form
+            alert("Your request has been prepared! If your email client didn't open, you can send the message via the WhatsApp window that just opened.");
+            form.reset();
+            
+            // Close popup if it's the lead form
+            if (!isContactForm) {
+                const popup = document.getElementById('leadPopup');
+                if (popup) popup.classList.remove('show');
+            }
+        }, 500);
+    };
+
+    // Attach to Lead Forms
+    document.querySelectorAll('.lead-form').forEach(form => {
+        form.addEventListener('submit', (e) => handleFormSubmit(e, false));
+    });
+
+    // Attach to Contact Forms
+    document.querySelectorAll('.custom-contact-form').forEach(form => {
+        form.addEventListener('submit', (e) => handleFormSubmit(e, true));
+    });
+
 });
 
 // Global Video Modal Logic
