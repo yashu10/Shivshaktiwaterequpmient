@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Shiv Shakti Javascript
  * Handles UI interactions, slider, and intersection observers for "anti-gravity" effects.
  */
@@ -331,7 +331,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const message = form.querySelector('textarea')?.value || 'N/A';
             requirement = `Subject: ${subject}\nMessage: ${message}`;
         } else {
-            requirement = form.querySelector('input[placeholder*="Requirement"]')?.value || 'N/A';
+            requirement = form.querySelector('select[name="requirement"]')?.value || form.querySelector('input[placeholder*="Requirement"]')?.value || 'N/A';
         }
 
         // Build the message
@@ -401,3 +401,4 @@ document.addEventListener('click', function (e) {
         closeVideo();
     }
 });
+
