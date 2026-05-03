@@ -1073,7 +1073,7 @@ ul {
 
 /* ================== Inner Pages (Products) ================== */
 .page-header {
-    background: var(--primary-dark);
+    background: var(--primary-light);
     padding: 150px 0 60px;
     text-align: center;
     color: var(--white);
