@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const messageBody = `*New Request a Quote*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Email:* ${email}\n*Requirement:* ${requirement}`;
         
         // Format for WhatsApp
-        const whatsappUrl = `https://wa.me/919712666160?text=${encodeURIComponent(messageBody)}`;
+        const whatsappUrl = `https://wa.me/919979477741?text=${encodeURIComponent(messageBody)}`;
         
         // Format for Email
         const emailBody = `New Request a Quote\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\nRequirement: ${requirement}`;
