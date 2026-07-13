@@ -179,7 +179,7 @@ export default function Contact() {
           <div className="map-container-iframe animate-on-scroll visible" style={{ position: "relative", marginTop: "40px" }}>
             {/* Overlay directions shortcut link */}
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=Shiv+Shakti+Engineering+Works,+Ahmedabad,+Gujarat"
+              href="https://www.google.com/maps/dir/?api=1&destination=B-5,+Revabhai+Industrial+Estate,+Opp.+Ishwar+Krupa+Weight+Bridge,+CTM,+Ahmedabad+-+380026"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -195,7 +195,7 @@ export default function Contact() {
               title="Click to get directions"
             ></a>
             <iframe
-              src="https://maps.google.com/maps?q=Shiv%20Shakti%20Engineering%20Works,%20Ahmedabad&t=&z=14&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=B-5,%20Revabhai%20Industrial%20Estate,%20Opp.%20Ishwar%20Krupa%20Weight%20Bridge,%20CTM,%20Ahmedabad%20-%20380026&t=&z=14&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="450"
               style={{ border: 0, borderRadius: "12px", boxShadow: "var(--shadow-sm)", pointerEvents: "none" }}
