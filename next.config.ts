@@ -1,6 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+  /*
+  // Next.js static HTML export does not support next.config redirects.
+  // These redirects must be configured on your hosting provider (e.g., Netlify redirects, Vercel JSON, Nginx rewrite rules).
   async redirects() {
     return [
       {
@@ -56,6 +63,8 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  */
 };
 
 export default nextConfig;
+

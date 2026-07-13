@@ -42,17 +42,8 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
     setIsVideoModalOpen(false);
   };
 
-  // Automatically trigger brochure popup after 1.5 seconds on first page load
-  useEffect(() => {
-    const hasSeenPopup = sessionStorage.getItem("hasSeenLeadPopup");
-    if (!hasSeenPopup) {
-      const timer = setTimeout(() => {
-        openLeadPopup("brochure");
-        sessionStorage.setItem("hasSeenLeadPopup", "true");
-      }, 1500);
-      return () => clearTimeout(timer);
-    }
-  }, []);
+  // Automatic trigger brochure popup has been disabled as requested.
+  // Popup will only open when explicitly triggered by action buttons.
 
   return (
     <UIContext.Provider

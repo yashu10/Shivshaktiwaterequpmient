@@ -35,9 +35,15 @@ export const LeadPopup: React.FC = () => {
       setFormData({ name: "", mobile: "", email: "", requirement: "" });
       closeLeadPopup();
       
-      // If it was a brochure request, download a mock brochure
+      // If it was a brochure request, download the brochure
       if (leadPopupType === "brochure") {
-        alert("Thank you! Your brochure download will start shortly.");
+        const link = document.createElement("a");
+        link.href = "/assets/images/Shiv Shakti Broucher.pdf";
+        link.download = "Shiv Shakti Broucher.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        alert("Thank you! Your brochure download has started.");
       } else {
         alert("Thank you for your inquiry! Our team will contact you within 24 hours.");
       }

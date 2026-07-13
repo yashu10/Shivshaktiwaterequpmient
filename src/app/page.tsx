@@ -210,7 +210,7 @@ export default function Home() {
       <section className="about section-padding" id="about">
         <div className="container about-container">
           <div className="about-image animate-on-scroll visible">
-            <img src="/assets/images/team_thumb.png" alt="Engineering Team" />
+            <img src="/assets/images/prod_water_filling.png" alt="Water Filling Equipment" />
             <div className="floating-badge">
               <span className="year">25+</span>
               <span className="text">
@@ -449,20 +449,28 @@ export default function Home() {
       </section>
 
       {/* Clients Logo Section */}
-      <section className="clients section-padding" id="clients">
+      <section className="clients section-padding" id="clients" style={{ backgroundColor: "var(--bg-light)" }}>
         <div className="container animate-on-scroll visible">
-          <div className="section-header center">
+          <div className="section-header center" style={{ marginBottom: "50px" }}>
             <h2 className="section-title">Our Esteemed Clients</h2>
-            <p>We are trusted by industry leaders across the globe.</p>
+            <p className="section-subtitle">We are trusted by industry leaders across the globe.</p>
           </div>
-          <div className="clients-slider-wrapper">
-            <div className="clients-track">
-              {/* Duplicate list to enable infinite scroll styling */}
-              {[1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6].map((num, idx) => (
-                <div key={idx} className="client-logo">
-                  <h3>Client {num}</h3>
-                </div>
-              ))}
+          <div className="clients-collage-wrapper">
+            <div className="clients-collage-grid">
+              {Array.from({ length: 27 }, (_, i) => {
+                const logoNumber = i + 3;
+                return (
+                  <div key={logoNumber} className="client-logo-item">
+                    <div className="client-logo-inner">
+                      <img
+                        src={`/assets/images/clients/${logoNumber}.jpg`}
+                        alt={`Shiv Shakti Client Logo ${logoNumber}`}
+                        loading="lazy"
+                      />
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -490,7 +498,11 @@ export default function Home() {
               <div className="new-stats-grid">
                 <div className="new-stat-card">
                   <div className="icon-box">
-                    <i className="fa-solid fa-globe"></i>
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ display: "block" }}>
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="2" y1="12" x2="22" y2="12"></line>
+                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
                   </div>
                   <div className="stat-info">
                     <h3 className="counter">25+</h3>
@@ -499,7 +511,10 @@ export default function Home() {
                 </div>
                 <div className="new-stat-card">
                   <div className="icon-box">
-                    <i className="fa-solid fa-industry"></i>
+                    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ display: "block" }}>
+                      <path d="M22 21H2V8l7 4 7-4 6 3v10z"></path>
+                      <path d="M17 11V7l-5 3V7H7v3"></path>
+                    </svg>
                   </div>
                   <div className="stat-info">
                     <h3 className="counter">500+</h3>
@@ -508,7 +523,10 @@ export default function Home() {
                 </div>
                 <div className="new-stat-card">
                   <div className="icon-box">
-                    <i className="fa-solid fa-handshake-angle"></i>
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ display: "block" }}>
+                      <circle cx="12" cy="8" r="7"></circle>
+                      <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
                   </div>
                   <div className="stat-info">
                     <h3 className="counter">100%</h3>

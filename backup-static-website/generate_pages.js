@@ -162,7 +162,7 @@ const products = [
         seoDesc: "High-precision wrap-around and double-sided sticker labelling machines for PET/Glass bottles. Servo-driven accuracy for flawless aesthetics.",
         tagline: "Flawless Branding Application at Every Speed",
         overview: "First impressions matter on retail shelves. Our Fully Automatic Sticker Labelling Machines guarantee perfect, bubble-free label placement every single time. Utilizing high-end servo or stepper motor technology, the machine continuously dispenses self-adhesive pressure-sensitive sticker labels onto passing bottles with an accuracy of ±1mm. Designed to handle round, flat, square, and oval containers, the highly adjustable applicator heads and heavy-duty conveyor synchronization make it a versatile asset for food, pharma, and beverage industries.",
-        image: "prod_sticker_labeling.png",
+        image: "prod_sticker_labelling.png",
         topFeatures: [
             "Partial, full wrap-around, or multi-side application",
             "No-Bottle, No-Label optical sensing",
@@ -192,7 +192,7 @@ const products = [
         seoDesc: "Cost-effective Hot Melt Glue BOPP Labelling Machines for high-volume mineral water and beverage production lines. Fast, secure wrap-around application.",
         tagline: "High-Volume, Low-Cost Wrap Around Perfection",
         overview: "For mass-market bottled water and beverages, label aesthetics must meet cost-efficiency. Our BOPP Hot Melt Glue Labelling Machines wrap thin, vibrant film labels entirely around the bottle at extraordinary speeds, using merely drops of hot melt adhesive. This method is incredibly economical compared to standard stickers. The machine features an integrated rotary wheel design, a highly precise glue wheel array, and a rotary knife system that beautifully cuts the continuous roll into perfectly sized labels exactly when needed.",
-        image: "prod_bopp_labeling.png",
+        image: "prod_bopp_labelling.png",
         topFeatures: [
             "Tremendous economic savings on label material",
             "Incredibly fast rotary application (up to 300 BPM)",
@@ -282,7 +282,7 @@ const products = [
         seoDesc: "Heavy-duty Industrial Reverse Osmosis (R.O.) plants for mineral water manufacturing. Multi-stage filtration delivering extremely pure water outputs.",
         tagline: "The Heart of Purity: Multi-Stage Reverse Osmosis",
         overview: "The core of any successful bottling business begins with the highest quality of raw water purification. Our Industrial Reverse Osmosis (RO) plants are engineered to strip bore-well, municipal, or river water of 99% of dissolved solids, heavy metals, pesticides, and microbial contaminants. Utilizing heavy-duty high pressure feed pumps along with premium Dow/Hydranautics membranes, the system operates constantly with immense reliability. It comes fully integrated with multimedia sand filters, activated carbon systems, antiscalant dosing, and UV/Ozone final treatments, guaranteeing sweet-tasting, crystal clear drinking water.",
-        image: "prod_ro_plant.png",
+        image: "prod_water_filling.png",
         topFeatures: [
             "Output capacities scaling from 500 LPH to 20,000+ LPH",
             "Comprehensive Multi-stage pre-filtration array",
@@ -312,7 +312,7 @@ const products = [
         seoDesc: "Automotive high-speed web sealer and shrink wrapping machines. Bundle wrap water bottles efficiently with PE film directly inline.",
         tagline: "Inline Heavy-Duty Bulk Bundling Solutions",
         overview: "Ditch the expensive corrugated cardboard cartons and utilize efficient PE film grouping. Our Fully Automatic Shrink Wrapping (Web Sealer) machines seamlessly connect directly to the end of your bottle packaging line. It automatically accumulates arriving bottles, groups them into matrices (e.g., 3x4, 4x6), wraps them tightly in a sleeve of heavy-duty Polyethylene (PE) shrink film, and conveys them through an industrial heat tunnel. They emerge tightly bound, sturdy, and ready to be loaded onto shipping pallets without any manual labor overhead.",
-        image: "prod_shrink_auto.png",
+        image: "hero_machine_2.png",
         topFeatures: [
             "Fully inline automatic collation & grouping",
             "Heavy-duty heating tunnel with turbulent fans",
@@ -342,7 +342,7 @@ const products = [
         seoDesc: "Affordable and highly durable semi-automatic shrink wrapping machines for medium scale water and beverage bottling setups.",
         tagline: "Affordable & Assured Bulk Packaging",
         overview: "Perfect for start-ups and medium-scale bottling operations, our Semi-Automatic Web Sealer & Shrink Wrapping machine provides the same robust final packaging quality as fully automatic systems, but at a fraction of the capital investment. An operator simply places the grouped bottles (or a pre-filled tray) onto the feeding platform and presses a button. The pneumatic pusher drives the bottles through the film curtain, the heated jaw seals the sleeve, and the bundle smoothly rolls through the high-temperature shrink tunnel, emerging factory-tight.",
-        image: "prod_shrink_semi.png",
+        image: "hero_machine_3.png",
         topFeatures: [
             "User-friendly dual-push button safety operation",
             "Pneumatically driven sealing and pushing rams",
@@ -372,7 +372,7 @@ const products = [
         seoDesc: "High-speed automatic PET stretch blow moulding machines. Manufacture your own PET bottles instantly on your production floor.",
         tagline: "Uninterrupted High-Speed Bottle Manufacturing",
         overview: "Eliminate the massive logistical costs of transporting empty bottles by manufacturing them exactly when you need them. The Fully Automatic PET Stretch Blow Moulding Machine takes compact, cheap PET preforms and magically stretches and blows them into finalized bottles at intense speeds. Featuring an automatic preform hopper, infrared heating ovens with independent zone control, and heavy-tonnage pneumatic clamping, this machine connects directly via air conveyors to your filling line. It is the pinnacle of vertical integration for modern packaging plants.",
-        image: "prod_blow_auto.png",
+        image: "hero_machine_4.png",
         topFeatures: [
             "Fully automated preform feeding to bottle ejection",
             "Advanced Infrared (IR) rotary heating ovens",
@@ -402,7 +402,7 @@ const products = [
         seoDesc: "Versatile and economical Semi-Automatic Pet Blow Moulding machines. Ideal for manufacturing diverse bottle shapes and sizes up to 20 Liters.",
         tagline: "Unmatched Flexibility in Bottle Production",
         overview: "The Semi-Automatic PET Blow Moulding Machine remains the foundational workhorse for hundreds of successful bottling businesses worldwide. It is split into two distinct units: a standalone Infrared Preform Heater, and the Main Blowing unit. An operator simply places heated preforms into the mold, hits dual-safety buttons, and the machine pneumatically locks the mold and blows the bottle. Its greatest advantage is incredible versatility and extremely low mold-replacement costs, making it ideal for producing unique geometries or large 20-Litre water jars.",
-        image: "prod_blow_semi.png",
+        image: "prod_juice_filling.png",
         topFeatures: [
             "Economical entry into self-manufacturing PET",
             "Standalone infrared continuous preform heater",
@@ -480,7 +480,7 @@ function generateHTML(p) {
                     <li><a href="index.html#contact">Contact Us</a></li>
                 </ul>
                 <div class="header-actions">
-                    <a href="index.html#quote" class="btn btn-primary nav-cta">Request A Quote</a>
+                    <a href="index.html#quote" class="btn btn-orange nav-cta">Request A Quote</a>
                     <a href="index.html#brochure" class="btn btn-outline nav-cta secondary-cta">Download Broucher</a>
                 </div>
             </nav>
@@ -613,7 +613,7 @@ function generateHTML(p) {
                     <!-- Auto Related 4 -->
                     <div class="product-card">
                         <div class="product-image">
-                            <img src="assets/images/prod_sticker_labeling.png" alt="Sticker Labelling Machine" onerror="this.src='assets/images/prod_water_filling.png'">
+                            <img src="assets/images/prod_sticker_labelling.png" alt="Sticker Labelling Machine" onerror="this.src='assets/images/prod_water_filling.png'">
                         </div>
                         <div class="product-info">
                             <h3>Sticker Labelling Machine</h3>

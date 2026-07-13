@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Shiv Shakti Javascript
  * Handles UI interactions, slider, and intersection observers for "anti-gravity" effects.
  */
@@ -143,8 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
             popup.classList.add('show');
         };
 
-        // Initially open after 1.5 seconds (only once per page load)
-        popupTimer = setTimeout(() => showPopup('brochure'), 1500);
+        // Initially open trigger has been disabled as requested so it only pops up when clicked
         
         const handleClose = () => {
             popup.classList.remove('show');
