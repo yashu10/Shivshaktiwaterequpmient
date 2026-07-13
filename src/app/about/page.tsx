@@ -189,7 +189,7 @@ export default function About() {
               <div className="cert-card">
                 <div className="img-wrapper">
                   <img
-                    src="https://www.mineralwaterfillingmachineinindia.com/assets/images/cor.jpg"
+                    src="/assets/images/certificates/cor.jpg"
                     alt="Certificate of Registration - SHIV SHAKTI WATER EQUIPMENT PVT. LTD."
                     style={{ width: "100%", height: "auto" }}
                   />
@@ -201,7 +201,7 @@ export default function About() {
               <div className="cert-card">
                 <div className="img-wrapper">
                   <img
-                    src="https://www.mineralwaterfillingmachineinindia.com/assets/images/coc.jpg"
+                    src="/assets/images/certificates/coc.jpg"
                     alt="Certificate of Compliance - SHIV SHAKTI WATER EQUIPMENT PVT. LTD."
                     style={{ width: "100%", height: "auto" }}
                   />

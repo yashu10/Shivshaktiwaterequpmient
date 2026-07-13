@@ -1592,7 +1592,7 @@ ul {
 }
 
 .btn-orange {
-    background-color: var(--primary);
+    background-color: #F59E0B;
     color: var(--white);
     border: none;
     border-radius: 6px;
@@ -1606,7 +1606,7 @@ ul {
 }
 
 .btn-orange:hover {
-    background-color: var(--primary-dark);
+    background-color: #D97706;
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
 }
@@ -1789,7 +1789,7 @@ ul {
 }
 
 .btn-orange-form {
-    background-color: var(--primary);
+    background-color: #F59E0B;
     color: white;
     border: none;
     padding: 16px 35px;
@@ -1803,7 +1803,7 @@ ul {
 }
 
 .btn-orange-form:hover {
-    background-color: var(--primary-dark);
+    background-color: #D97706;
 }
 
 @media (max-width: 768px) {

@@ -214,8 +214,8 @@ export const Header: React.FC = () => {
                 closeMobileMenu();
                 openLeadPopup("quote");
               }}
-              className="btn btn-primary nav-cta"
-              style={{ cursor: "pointer", background: "none", border: "none" }}
+              className="btn btn-orange nav-cta"
+              style={{ cursor: "pointer" }}
             >
               Request A Quote
             </button>
@@ -225,7 +225,7 @@ export const Header: React.FC = () => {
                 openLeadPopup("brochure");
               }}
               className="btn btn-outline nav-cta secondary-cta"
-              style={{ cursor: "pointer", background: "none" }}
+              style={{ cursor: "pointer" }}
             >
               Download Brochure
             </button>
